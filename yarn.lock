@@ -303,6 +303,26 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
+"@babel/core@7.5.4":
+  version "7.5.4"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/core/-/core-7.5.4.tgz#4c32df7ad5a58e9ea27ad025c11276324e0b4ddd"
+  integrity sha1-TDLfetWljp6ietAlwRJ2Mk4LTd0=
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@babel/generator" "^7.5.0"
+    "@babel/helpers" "^7.5.4"
+    "@babel/parser" "^7.5.0"
+    "@babel/template" "^7.4.4"
+    "@babel/traverse" "^7.5.0"
+    "@babel/types" "^7.5.0"
+    convert-source-map "^1.1.0"
+    debug "^4.1.0"
+    json5 "^2.1.0"
+    lodash "^4.17.11"
+    resolve "^1.3.2"
+    semver "^5.4.1"
+    source-map "^0.5.0"
+
 "@babel/core@7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/core/-/core-7.8.3.tgz#30b0ebb4dd1585de6923a0b4d179e0b9f5d82941"
@@ -345,7 +365,7 @@
     semver "^5.4.1"
     source-map "^0.5.0"
 
-"@babel/generator@^7.0.0", "@babel/generator@^7.4.4", "@babel/generator@^7.8.3", "@babel/generator@^7.8.4":
+"@babel/generator@^7.0.0", "@babel/generator@^7.4.4", "@babel/generator@^7.5.0", "@babel/generator@^7.8.3", "@babel/generator@^7.8.4":
   version "7.8.4"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/generator/-/generator-7.8.4.tgz#35bbc74486956fe4251829f9f6c48330e8d0985e"
   integrity sha1-NbvHRIaVb+QlGCn59sSDMOjQmF4=
@@ -549,7 +569,7 @@
     "@babel/traverse" "^7.8.3"
     "@babel/types" "^7.8.3"
 
-"@babel/helpers@^7.8.3", "@babel/helpers@^7.8.4":
+"@babel/helpers@^7.5.4", "@babel/helpers@^7.8.3", "@babel/helpers@^7.8.4":
   version "7.8.4"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/helpers/-/helpers-7.8.4.tgz#754eb3ee727c165e0a240d6c207de7c455f36f73"
   integrity sha1-dU6z7nJ8Fl4KJA1sIH3nxFXzb3M=
@@ -572,7 +592,7 @@
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/parser/-/parser-7.4.5.tgz#04af8d5d5a2b044a2a1bffacc1e5e6673544e872"
   integrity sha1-BK+NXVorBEoqG/+sweXmZzVE6HI=
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.4.5", "@babel/parser@^7.7.5", "@babel/parser@^7.8.3", "@babel/parser@^7.8.4":
+"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.4.5", "@babel/parser@^7.5.0", "@babel/parser@^7.7.5", "@babel/parser@^7.8.3", "@babel/parser@^7.8.4":
   version "7.8.4"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/parser/-/parser-7.8.4.tgz#d1dbe64691d60358a974295fa53da074dd2ce8e8"
   integrity sha1-0dvmRpHWA1ipdClfpT2gdN0s6Og=
@@ -1218,6 +1238,27 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@7.5.5", "@babel/runtime@~7.5.4":
+  version "7.5.5"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+  integrity sha1-dPulbTXvvspEQJHHhQzNSU/S8TI=
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@7.6.3":
+  version "7.6.3"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
+  integrity sha1-k1Eix0xz0iQMr9Mt21/Cps01zx8=
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@7.7.2":
+  version "7.7.2"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
+  integrity sha1-ERp4ACpcJfyOM2G+3JUpxpa4Wmo=
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime@7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/runtime/-/runtime-7.8.3.tgz#0811944f73a6c926bb2ad35e918dcc1bfab279f1"
@@ -1232,7 +1273,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/template@^7.7.4", "@babel/template@^7.8.3":
+"@babel/template@^7.4.4", "@babel/template@^7.7.4", "@babel/template@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/template/-/template-7.8.3.tgz#e02ad04fe262a657809327f578056ca15fd4d1b8"
   integrity sha1-4CrQT+JipleAkyf1eAVsoV/U0bg=
@@ -1271,7 +1312,7 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/traverse@^7.0.0", "@babel/traverse@^7.1.0", "@babel/traverse@^7.7.4", "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.4":
+"@babel/traverse@^7.0.0", "@babel/traverse@^7.1.0", "@babel/traverse@^7.5.0", "@babel/traverse@^7.7.4", "@babel/traverse@^7.8.3", "@babel/traverse@^7.8.4":
   version "7.8.4"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/traverse/-/traverse-7.8.4.tgz#f0845822365f9d5b0e312ed3959d3f827f869e3c"
   integrity sha1-8IRYIjZfnVsOMS7TlZ0/gn+Gnjw=
@@ -1286,7 +1327,7 @@
     globals "^11.1.0"
     lodash "^4.17.13"
 
-"@babel/types@^7.0.0", "@babel/types@^7.3.0", "@babel/types@^7.4.4", "@babel/types@^7.8.3":
+"@babel/types@^7.0.0", "@babel/types@^7.3.0", "@babel/types@^7.4.4", "@babel/types@^7.5.0", "@babel/types@^7.8.3":
   version "7.8.3"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@babel/types/-/types-7.8.3.tgz#5a383dffa5416db1b73dedffd311ffd0788fb31c"
   integrity sha1-Wjg9/6VBbbG3Pe3/0xH/0HiPsxw=
@@ -1314,6 +1355,26 @@
     normalize-css-color "^1.0.2"
     sketch-constants "^1.1.0"
     sketchapp-json-plugin "^0.1.2"
+
+"@cgds/icon@link:components/Icon":
+  version "0.0.0"
+  uid ""
+
+"@cgds/styles@^0.100.0":
+  version "0.100.2"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@cgds/styles/-/@cgds/styles-0.100.2.tgz#c62f44f3dbb6d1db6d0659904e73b491edbbac90"
+  integrity sha1-xi9E89u20dttBlmQTnO0ke27rJA=
+  dependencies:
+    "@babel/core" "7.5.4"
+    "@babel/runtime" "7.5.5"
+
+"@cgds/themes@0.100.0":
+  version "0.100.0"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@cgds/themes/-/@cgds/themes-0.100.0.tgz#6155296b66d0d87236f7239fdf459dcd7bc5eaa5"
+  integrity sha1-YVUpa2bQ2HI29yOf30WdzXvF6qU=
+  dependencies:
+    "@babel/runtime" "7.5.5"
+    "@cgds/styles" "^0.100.0"
 
 "@chromaui/localtunnel@1.10.1":
   version "1.10.1"
@@ -1737,6 +1798,22 @@
     semver "7.1.1"
     tslib "1.10.0"
 
+"@design-systems/utils@0.43.1":
+  version "0.43.1"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@design-systems/utils/-/@design-systems/utils-0.43.1.tgz#728962119dcbc1abeb690c4fcc7d134ab2123f64"
+  integrity sha1-coliEZ3LwavraQxPzH0TSrISP2Q=
+  dependencies:
+    clsx "1.0.4"
+    fromentries "1.2.0"
+
+"@design-systems/utils@^0.40.2":
+  version "0.40.2"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@design-systems/utils/-/@design-systems/utils-0.40.2.tgz#c9d9dd223f412a36d2747988e96e400753d548da"
+  integrity sha1-ydndIj9BKjbSdHmI6W5AB1PVSNo=
+  dependencies:
+    clsx "1.0.4"
+    fromentries "1.2.0"
+
 "@emotion/cache@^10.0.27", "@emotion/cache@^10.0.9":
   version "10.0.27"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@emotion/cache/-/cache-10.0.27.tgz#7895db204e2c1a991ae33d51262a3a44f6737303"
@@ -1917,6 +1994,15 @@
   version "0.2.4"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha1-6QyfcXaLNzbnbX3WeD/Gwq+oi8g=
+
+"@ids-alpha/theme@0.87.1":
+  version "0.87.1"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/@ids-alpha/theme/-/@ids-alpha/theme-0.87.1.tgz#c5cacfedf4df4be51b2db78680316a28351ac35e"
+  integrity sha1-xcrP7fTfS+UbLbeGgDFqKDUaw14=
+  dependencies:
+    "@babel/runtime" "~7.5.4"
+    "@design-systems/utils" "^0.40.2"
+    clsx "^1.0.4"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.0.0"
@@ -3149,9 +3235,9 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@royriojas/get-exports-from-file@git+https://github.com/hipstersmoothie/get-exports-from-file.git#all":
+"@royriojas/get-exports-from-file@https://github.com/hipstersmoothie/get-exports-from-file#all":
   version "1.3.0"
-  resolved "git+https://github.com/hipstersmoothie/get-exports-from-file.git#2674835dac0cb1a9821956020d00db22ef9efae0"
+  resolved "https://github.com/hipstersmoothie/get-exports-from-file#2674835dac0cb1a9821956020d00db22ef9efae0"
   dependencies:
     "@babel/parser" "7.4.5"
     "@babel/traverse" "7.4.5"
@@ -4735,6 +4821,11 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
+arg@^4.1.0:
+  version "4.1.3"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/arg/-/arg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
+  integrity sha1-Jp/HrVuOQstjyJbVZmAXJhwUQIk=
+
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -5811,7 +5902,7 @@ browserslist@4.7.0:
     electron-to-chromium "^1.3.247"
     node-releases "^1.1.29"
 
-browserslist@^4.0.0, browserslist@^4.8.2, browserslist@^4.8.3, browserslist@^4.8.5:
+browserslist@^4.0.0, browserslist@^4.7.0, browserslist@^4.8.2, browserslist@^4.8.3, browserslist@^4.8.5:
   version "4.8.6"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/browserslist/-/browserslist-4.8.6.tgz#96406f3f5f0755d272e27a66f4163ca821590a7e"
   integrity sha1-lkBvP18HVdJy4npm9BY8qCFZCn4=
@@ -6476,6 +6567,16 @@ clone@^2.1.1, clone@^2.1.2:
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
 
+clsx@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/clsx/-/clsx-1.0.4.tgz#0c0171f6d5cb2fe83848463c15fcc26b4df8c2ec"
+  integrity sha1-DAFx9tXLL+g4SEY8FfzCa034wuw=
+
+clsx@^1.0.4:
+  version "1.1.0"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/clsx/-/clsx-1.1.0.tgz#62937c6adfea771247c34b54d320fb99624f5702"
+  integrity sha1-YpN8at/qdxJHw0tU0yD7mWJPVwI=
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -6887,7 +6988,7 @@ conventional-recommended-bump@^5.0.0:
     meow "^4.0.0"
     q "^1.5.1"
 
-convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
+convert-source-map@^1.1.0, convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/convert-source-map/-/convert-source-map-1.7.0.tgz#17a2cb882d7f77d3490585e2ce6c524424a3a442"
   integrity sha1-F6LLiC1/d9NJBYXizmxSRCSjpEI=
@@ -7508,7 +7609,7 @@ debug@4, debug@4.1.1, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "^2.1.1"
 
-debug@^3.0.0, debug@^3.0.1, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
+debug@^3.0.0, debug@^3.0.1, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
@@ -7575,6 +7676,11 @@ deepmerge@4.2.2, deepmerge@^4.0.0, deepmerge@^4.2.2:
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha1-RNLqNnm49NT/ujPwPYZfwee/SVU=
 
+deepmerge@^3.2.0:
+  version "3.3.0"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/deepmerge/-/deepmerge-3.3.0.tgz#d3c47fd6f3a93d517b14426b0628a17b0125f5f7"
+  integrity sha1-08R/1vOpPVF7FEJrBiihewEl9fc=
+
 deepmerge@~2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/deepmerge/-/deepmerge-2.0.1.tgz#25c1c24f110fb914f80001b925264dd77f3f4312"
@@ -7629,9 +7735,9 @@ defined@~1.0.0:
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
   integrity sha1-yY2bzvdWdBiOEQlpFRGZ45sfppM=
 
-"degit@git+https://github.com/hipstersmoothie/degit.git#private-release":
+"degit@https://github.com/hipstersmoothie/degit.git#private-release":
   version "2.1.4"
-  resolved "git+https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
+  resolved "https://github.com/hipstersmoothie/degit.git#77bdec052337a560e3487b4c45e402d5de49fe55"
   dependencies:
     chalk "2.4.2"
     githuburl "0.1.6"
@@ -7714,11 +7820,6 @@ detect-indent@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/detect-indent/-/detect-indent-5.0.0.tgz#3871cc0a6a002e8c3e5b3cf7f336264675f06b9d"
   integrity sha1-OHHMCmoALow+Wzz38zYmRnXwa50=
-
-detect-libc@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
-  integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
 detect-newline@^3.0.0:
   version "3.1.0"
@@ -8435,9 +8536,9 @@ eslint-formatter-pretty@^2.1.1:
     string-width "^2.0.0"
     supports-hyperlinks "^1.0.1"
 
-"eslint-import-resolver-lerna@git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
+"eslint-import-resolver-lerna@https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#catch":
   version "1.1.0"
-  resolved "git+https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
+  resolved "https://github.com/hipstersmoothie/eslint-import-resolver-lerna.git#5c67ee424b102be38755728b55102e12f1bbd52d"
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.3"
@@ -9416,6 +9517,11 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
+fromentries@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/fromentries/-/fromentries-1.2.0.tgz#e6aa06f240d6267f913cea422075ef88b63e7897"
+  integrity sha1-5qoG8kDWJn+RPOpCIHXviLY+eJc=
+
 fs-constants@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/fs-constants/-/fs-constants-1.0.0.tgz#6be0de9be998ce16af8afc24497b9ee9b7ccd9ad"
@@ -10381,7 +10487,7 @@ husky@3.1.0:
     run-node "^1.0.0"
     slash "^3.0.0"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.17, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
+iconv-lite@0.4.24, iconv-lite@^0.4.17, iconv-lite@^0.4.24, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
@@ -12639,6 +12745,11 @@ make-dir@^3.0.0:
   dependencies:
     semver "^6.0.0"
 
+make-error@^1.1.1:
+  version "1.3.5"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/make-error/-/make-error-1.3.5.tgz#efe4e81f6db28cadd605c70f29c831b58ef776c8"
+  integrity sha1-7+ToH22yjK3WBccPKcgxtY73dsg=
+
 make-fetch-happen@^5.0.0:
   version "5.0.2"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/make-fetch-happen/-/make-fetch-happen-5.0.2.tgz#aa8387104f2687edca01c8687ee45013d02d19bd"
@@ -13341,15 +13452,6 @@ natural-compare@^1.4.0:
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-needle@^2.2.1:
-  version "2.3.2"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/needle/-/needle-2.3.2.tgz#3342dea100b7160960a450dc8c22160ac712a528"
-  integrity sha1-M0LeoQC3FglgpFDcjCIWCscSpSg=
-  dependencies:
-    debug "^3.2.6"
-    iconv-lite "^0.4.4"
-    sax "^1.2.4"
-
 negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
@@ -13512,22 +13614,6 @@ node-notifier@^6.0.0:
     shellwords "^0.1.1"
     which "^1.3.1"
 
-node-pre-gyp@*:
-  version "0.14.0"
-  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
-  integrity sha1-mgWWUzuHcom8rU4UOYLKPZBN3IM=
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4.4.2"
-
 node-releases@^1.1.29, node-releases@^1.1.47:
   version "1.1.47"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/node-releases/-/node-releases-1.1.47.tgz#c59ef739a1fd7ecbd9f0b7cf5b7871e8a8b591e4"
@@ -13648,7 +13734,7 @@ npm-normalize-package-bin@^1.0.0, npm-normalize-package-bin@^1.0.1:
     semver "^5.6.0"
     validate-npm-package-name "^3.0.0"
 
-npm-packlist@^1.1.6, npm-packlist@^1.4.4:
+npm-packlist@^1.4.4:
   version "1.4.8"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/npm-packlist/-/npm-packlist-1.4.8.tgz#56ee6cc135b9f98ad3d51c1c95da22bbb9b2ef3e"
   integrity sha1-Vu5swTW5+YrT1Rwcldoiu7my7z4=
@@ -13703,7 +13789,7 @@ npm-which@3.0.1:
     npm-path "^2.0.2"
     which "^1.2.10"
 
-npmlog@^4.0.2, npmlog@^4.1.2:
+npmlog@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/npmlog/-/npmlog-4.1.2.tgz#08a7f2a8bf734604779a9efa4ad5cc717abb954b"
   integrity sha1-CKfyqL9zRgR3mp76StXMcXq7lUs=
@@ -14506,7 +14592,7 @@ pkg-up@3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-"playroom@github:hipstersmoothie/playroom#snippets":
+playroom@hipstersmoothie/playroom#snippets:
   version "0.0.0-semantically-released"
   resolved "https://codeload.github.com/hipstersmoothie/playroom/tar.gz/664beeee97a2abd870185aa452bb00b75dce5e61"
   dependencies:
@@ -15093,6 +15179,20 @@ postcss-syntax@^0.36.2:
   version "0.36.2"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/postcss-syntax/-/postcss-syntax-0.36.2.tgz#f08578c7d95834574e5593a82dfbfa8afae3b51c"
   integrity sha1-8IV4x9lYNFdOVZOoLfv6ivrjtRw=
+
+postcss-themed@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/postcss-themed/-/postcss-themed-1.1.0.tgz#7e9eec5b25cc4ae737e9c2f653c5f89a11e327f7"
+  integrity sha1-fp7sWyXMSuc36cL2U8X4mhHjJ/c=
+  dependencies:
+    browserslist "^4.7.0"
+    caniuse-api "^3.0.0"
+    cssesc "^3.0.0"
+    debug "^4.1.1"
+    deepmerge "^3.2.0"
+    loader-utils "^1.2.3"
+    postcss "^7.0.14"
+    ts-node "^8.0.3"
 
 postcss-unique-selectors@^4.0.1:
   version "4.0.1"
@@ -15694,7 +15794,7 @@ raw-loader@^3.1.0:
     loader-utils "^1.1.0"
     schema-utils "^2.0.1"
 
-rc@^1.0.1, rc@^1.1.6, rc@^1.2.7, rc@^1.2.8:
+rc@^1.0.1, rc@^1.1.6, rc@^1.2.8:
   version "1.2.8"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
   integrity sha1-zZJL9SAKB1uDwYjNa54hG3/A0+0=
@@ -15996,6 +16096,16 @@ react-transition-group@^2.2.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react@16.8.6:
+  version "16.8.6"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
+  integrity sha1-rWw6lhT9Ok6e9REX9U2IjaAfK74=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.6"
 
 react@16.9.0:
   version "16.9.0"
@@ -16820,6 +16930,14 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
+scheduler@^0.13.6:
+  version "0.13.6"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  integrity sha1-RmpOwzJGezGpG5v3TlNHBy5M2Ik=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 scheduler@^0.15.0:
   version "0.15.0"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
@@ -16899,7 +17017,7 @@ semver-compare@^1.0.0:
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
   integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
 
-"semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0, semver@^5.7.0, semver@^5.7.1:
+"semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0, semver@^5.7.0, semver@^5.7.1:
   version "5.7.1"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha1-qVT5Ma66UI0we78Gnv8MAclhFvc=
@@ -18295,7 +18413,7 @@ tar@5.0.5:
     mkdirp "^0.5.0"
     yallist "^4.0.0"
 
-tar@^4.4.10, tar@^4.4.12, tar@^4.4.2, tar@^4.4.8:
+tar@^4.4.10, tar@^4.4.12, tar@^4.4.8:
   version "4.4.13"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   integrity sha1-Q7NkvFKIjVVSmGN7ENYHkCVKtSU=
@@ -18676,6 +18794,17 @@ ts-dedent@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/ts-dedent/-/ts-dedent-1.1.1.tgz#68fad040d7dbd53a90f545b450702340e17d18f3"
   integrity sha1-aPrQQNfb1TqQ9UW0UHAjQOF9GPM=
+
+ts-node@^8.0.3:
+  version "8.6.2"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/ts-node/-/ts-node-8.6.2.tgz#7419a01391a818fbafa6f826a33c1a13e9464e35"
+  integrity sha1-dBmgE5GoGPuvpvgmozwaE+lGTjU=
+  dependencies:
+    arg "^4.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    source-map-support "^0.5.6"
+    yn "3.1.1"
 
 ts-pnp@^1.1.2:
   version "1.1.5"
@@ -19968,6 +20097,11 @@ yauzl@^2.10.0:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
+
+yn@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npmjs.intuit.com:443/artifactory/api/npm/npm-intuit/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
+  integrity sha1-HodAGgnXZ8HV6rJqbkwYUYLS61A=
 
 zip-stream@^1.2.0:
   version "1.2.0"
