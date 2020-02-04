@@ -7,7 +7,7 @@ import notes from '../README.md';
 
 export default {
   title: 'Components|DeveloperWeek',
-  parameters: { notes, jsx: { skip: 1 } },
+  parameters: { notes, jsx: { skip: 2 } },
 
   decorators: [centered]
 };
