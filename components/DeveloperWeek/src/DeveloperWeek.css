@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,800i&display=swap');
+
+.developer-week {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.developer {
+  font-weight: 700;
+}
+
+.week {
+  color: #ef5387;
+  font-weight: 500;
+}

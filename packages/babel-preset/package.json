@@ -1,0 +1,17 @@
+{
+  "name": "@developer-week/babel-preset",
+  "description": "Automatically load the css for the @developer-week design system.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "tylerkrupicka/developer-week",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "!*.test.*",
+    "!__snapshots__",
+    "!__tests__"
+  ],
+  "dependencies": {
+    "@design-systems/babel-plugin-include-styles": "1.2.5"
+  }
+}
