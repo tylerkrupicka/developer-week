@@ -1,10 +1,10 @@
 {
-  "name": "@workshop/button",
-  "version": "0.0.3",
+  "name": "@developer-week/button",
+  "version": "0.0.0",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist",
-  "repository": "https://github.intuit.com/design-systems/workshop",
+  "repository": "https://github.com/tylerkrupicka/developer-week",
   "author": "Tyler Krupicka Tyler_Krupicka@intuit.com",
   "contributors": [
     "Tyler Krupicka Tyler_Krupicka@intuit.com"
@@ -14,7 +14,7 @@
     "*.css"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.intuit.com/"
+    "registry": "https://registry.npmjs.com/"
   },
   "scripts": {
     "clean": "ds clean",
@@ -28,10 +28,6 @@
   },
   "dependencies": {
     "@babel/runtime": "7.6.3",
-    "@cgds/icon": "link:../Icon",
-    "@cgds/themes": "0.100.0",
-    "@design-systems/utils": "0.43.1",
-    "@ids-alpha/theme": "0.87.1",
     "clsx": "1.0.4"
   },
   "peerDependencies": {

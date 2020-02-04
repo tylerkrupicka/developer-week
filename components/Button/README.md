@@ -1,4 +1,4 @@
-# @workshop/button
+# developer-week/button
 
 An example `Button` component with cross-product theming.
 
